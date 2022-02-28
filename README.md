@@ -14,6 +14,8 @@ ruby app.rb WIDTH HEIGHT SEEDS
 - Better error handling for invalid arguments on run
 - Use Matrix instead of nested array to simplify code
 - Rename life_check method as method name is misleading
+- Offer examples to start game of life instead of requiring seed
+  - "Choose a configuration: Block, Blinker, Glider"
 
 ## Examples
 ### Block
