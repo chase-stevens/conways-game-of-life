@@ -4,6 +4,17 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 ## How to Run
 ruby app.rb WIDTH HEIGHT SEEDS
 
+## Things I Would Improve With Additional Time
+- Bug when colliding with south and/or east wall
+  - Reads other side of nested array as neighbors
+  - Repro with Glider example or Lightweight Spaceship - Left to Right example
+- Adding testing with rspec
+  - Game initialization
+  - Game states with given seed after X iterations
+- Better error handling for invalid arguments on run
+- Use Matrix instead of nested array to simplify code
+- Rename life_check method as method name is misleading
+
 ## Examples
 ### Block
 #### ruby app.rb 20 20 10,10 10,11 11,10 11,11
