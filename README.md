@@ -34,5 +34,9 @@ ruby app.rb WIDTH HEIGHT SEEDS
 ### Glider
 #### ruby app.rb 20 20 2,2 3,3 3,4 4,2 4,3
 
-### Lightweight Spaceship
+### Lightweight Spaceship - Right to Left
 #### ruby app.rb 40 20 10,35 10,36 11,33 11,38 12,32 13,32 13,38 14,32 14,33 14,34 14,35 14,36 14,37
+
+
+### Lightweight Spaceship - Left to Right
+#### ruby app.rb 40 20 10,1 10,4 11,5 12,1 12,5 13,2 13,3 13,4 13,5
